@@ -6,4 +6,4 @@ WORKDIR /usr/local/src
 
 
 EXPOSE 80
-
+CMD ["bundle", "exec", "puma", "-C", "config/puma.rb"]
