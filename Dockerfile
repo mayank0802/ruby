@@ -4,4 +4,7 @@ RUN mkdir -p /usr/local/src
 WORKDIR /usr/local/src
 
 
-USER ruby
+
+EXPOSE 80
+
+CMD [ "nginx", "-g", "daemon off;" ] 
