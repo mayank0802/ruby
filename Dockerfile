@@ -1,3 +1,3 @@
-FROM thommay/ruby-puma
+FROM radumatei/ruby-puma
 CMD ["ruby", "hello.rb"]
 EXPOSE 80
