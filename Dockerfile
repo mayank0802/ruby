@@ -5,5 +5,5 @@ WORKDIR /usr/local/src
 
 
 
-EXPOSE 80
 CMD ["rails", "server"]
+EXPOSE 80
